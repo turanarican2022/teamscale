@@ -4,15 +4,10 @@
     /* position: relative; */
     overflow: visible;
   }
-  .link:link,
-  .link:visited {
+  .mobile-nav-link:link,
+  .mobile-nav-link:visited {
     font-weight: var(--fw-medium);
     font-size: var(--fs-24);
-  }
-
-  .link:hover,
-  .link:active {
-    color: var(--black);
   }
   .nav-links {
     flex-direction: column;
