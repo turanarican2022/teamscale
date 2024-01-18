@@ -35,11 +35,29 @@
 }
 
 @media (max-width: 576px) {
+  .hero-txt h1 {
+    font-size: var(--fs-36);
+  }
+  .section-title {
+    font-size: var(--fs-24);
+  }
+  .plan-features {
+    flex-direction: column;
+  }
   .cta-body {
     background-image: none;
   }
+  .cta-form {
+    flex-direction: column;
+  }
+  .cta-form input {
+    width: 100%;
+  }
+  .clients-grid {
+    gap: var(--s-24);
+  }
   .clients-grid img {
-    transform: scale(0.8);
+    transform: scale(0.4);
   }
   .footer-links {
     grid-template-columns: 1fr 1fr;
