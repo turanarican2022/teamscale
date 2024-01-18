@@ -38,11 +38,17 @@
   .hero-txt h1 {
     font-size: var(--fs-36);
   }
+  section {
+    padding: var(--s-46) 0;
+  }
   .section-title {
     font-size: var(--fs-24);
   }
   .plan-features {
     flex-direction: column;
+  }
+  .cta-title {
+    font-size: var(--fs-24);
   }
   .cta-body {
     background-image: none;
@@ -55,7 +61,7 @@
   }
   .clients-grid {
     grid-template-columns: 1fr;
-    gap: var(--s-24);
+    gap: var(--s-40);
   }
   .footer-links {
     grid-template-columns: 1fr 1fr;
@@ -65,5 +71,6 @@
     flex-direction: column;
     align-items: center;
     gap: var(--s-32);
+    text-align: center;
   }
 }
