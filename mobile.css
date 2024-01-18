@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .navbar {
     gap: var(--s-12);
-    /* overflow: visible; */
+    overflow: hidden;
   }
   .mobile-nav-link:link,
   .mobile-nav-link:visited {
@@ -22,7 +22,8 @@
     transition: all 0.6s;
   }
   .nav-links.display {
-    transform: none;
+   /* transform: none;*/
+    right:0;
   }
   #desktop-cta-btn {
     display: none;
