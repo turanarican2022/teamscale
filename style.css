@@ -183,7 +183,7 @@ nav {
   display: flex;
   align-items: center;
   gap: var(--s-24);
-  overflow: hidden;
+  /* position: relative; */
 }
 
 .nav-links {
