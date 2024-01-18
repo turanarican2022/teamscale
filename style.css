@@ -64,6 +64,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  overflow: hidden;
 }
 
 /* ***************** */
@@ -183,7 +184,6 @@ nav {
   display: flex;
   align-items: center;
   gap: var(--s-24);
-  /* position: relative; */
 }
 
 .nav-links {
@@ -191,7 +191,6 @@ nav {
   display: flex;
   align-items: center;
   gap: var(--s-24);
-  position: relative;
 }
 
 .mobile-menu-btn,
