@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .navbar {
     gap: var(--s-12);
-    overflow: visible;
+    /* overflow: visible; */
   }
   .mobile-nav-link:link,
   .mobile-nav-link:visited {
