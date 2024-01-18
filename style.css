@@ -181,12 +181,37 @@ nav {
 }
 
 .navbar {
+  display: flex;
+  align-items: center;
+  gap: var(--s-24);
+  overflow: hidden;
+}
+
+.nav-links {
   list-style: none;
   display: flex;
   align-items: center;
   gap: var(--s-24);
+  position: relative;
 }
 
+.mobile-menu-btn,
+.mobile-menu-close-btn {
+  border: 1px solid var(--btn-border-gray);
+  width: 44px;
+  aspect-ratio: 1;
+  background: none;
+  border-radius: 8px;
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu-close-btn {
+  border: none;
+  position: absolute;
+  top: var(--s-32);
+  right: var(--s-32);
+}
 /* ************ */
 /* hero section */
 /* ************ */
