@@ -98,7 +98,6 @@ body {
   font-weight: var(--fw-semi-bold);
   border-radius: var(--s-8);
   padding: var(--s-10) var(--s-20);
-  display: flex;
   align-items: center;
   gap: var(--s-8);
 }
@@ -209,9 +208,15 @@ nav {
 .mobile-menu-close-btn {
   border: none;
   position: absolute;
-  top: var(--s-32);
+  top: 38px;
+  transform: translateY(-50%);
   right: var(--s-32);
 }
+
+#mobile-cta-btn {
+  display: none;
+}
+
 /* ************ */
 /* hero section */
 /* ************ */

@@ -1,7 +1,6 @@
 @media (max-width: 768px) {
   .navbar {
     gap: var(--s-12);
-    /* position: relative; */
     overflow: visible;
   }
   .mobile-nav-link:link,
@@ -24,6 +23,12 @@
   }
   .nav-links.display {
     transform: none;
+  }
+  #desktop-cta-btn {
+    display: none;
+  }
+  #mobile-cta-btn {
+    display: inline-block;
   }
   .mobile-menu-btn {
     display: block;
