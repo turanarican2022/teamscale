@@ -14,7 +14,7 @@
     position: absolute;
     top: 0;
     right: -100%;
-    width: 100vw;
+    width: 100%;
     min-height: 100svh;
     z-index: 9999;
     /*transform: translateX(100%);*/
