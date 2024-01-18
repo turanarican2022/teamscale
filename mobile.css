@@ -54,10 +54,8 @@
     width: 100%;
   }
   .clients-grid {
+    grid-template-columns: 1fr;
     gap: var(--s-24);
-  }
-  .clients-grid img {
-    transform: scale(0.4);
   }
   .footer-links {
     grid-template-columns: 1fr 1fr;
