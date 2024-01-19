@@ -22,7 +22,6 @@
   }
   .nav-links.display {
     transform: none;
-    transition: all 0s;
   }
   #desktop-cta-btn {
     display: none;
