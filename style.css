@@ -64,7 +64,6 @@
 
 body {
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
 }
 
 /* ***************** */
@@ -154,10 +153,13 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1440px;
-  width: 90%;
+  width: 100%;
+  padding: 0 112px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
 }
 
 /* ****** */
@@ -188,32 +190,19 @@ nav {
 
 .nav-links {
   list-style: none;
-  display: flex;
-  align-items: center;
+  display: inherit;
+  align-items: inherit;
   gap: var(--s-24);
 }
 
-.mobile-menu-btn,
-.mobile-menu-close-btn {
-  border: 1px solid var(--btn-border-gray);
-  width: 44px;
+.mobile-menu-btn {
+  border: none;
+  width: 42px;
   aspect-ratio: 1;
   background: none;
-  border-radius: 8px;
   display: none;
   cursor: pointer;
-}
-
-.mobile-menu-close-btn {
-  border: none;
-  position: absolute;
-  top: 38px;
-  transform: translateY(-50%);
-  right: var(--s-32);
-}
-
-#mobile-cta-btn {
-  display: none;
+  z-index: 9999;
 }
 
 /* ************ */
@@ -309,9 +298,6 @@ section {
 /* features section */
 /* **************** */
 
-.features-section {
-}
-
 .features-section-body {
   padding: var(--s-68) 0;
   display: flex;
@@ -360,9 +346,6 @@ section {
 /* ******************* */
 /* get started section */
 /* ******************* */
-
-.get-started {
-}
 
 .plan-features {
   margin-top: var(--s-32);

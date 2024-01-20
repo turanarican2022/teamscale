@@ -1,14 +1,14 @@
 const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
-const mobileMenuCloseBtn = document.querySelector(".mobile-menu-close-btn");
-const navLinks = document.querySelector(".nav-links");
+const navbar = document.querySelector(".navbar");
 const links = document.querySelectorAll(".link");
+const topCTAbtn = document.querySelector(".top-cta-btn");
 
 mobileMenuBtn.addEventListener("click", () => {
-  navLinks.classList.add("display");
+  navbar.classList.toggle("display");
 });
 
-[mobileMenuCloseBtn, ...links].forEach((link) => {
+[topCTAbtn, ...links].forEach((link) => {
   link.addEventListener("click", () => {
-    navLinks.classList.remove("display");
+    navbar.classList.remove("display");
   });
 });
