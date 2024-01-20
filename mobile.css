@@ -1,3 +1,18 @@
+@media (max-width: 1024px) {
+  .hero-img-side {
+    width: 60%;
+  }
+  .hero-img-side img {
+    width: 100%;
+  }
+  .features-section-body {
+    flex-direction: column;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--s-32);
+  }
+}
 @media (max-width: 768px) {
   .container {
     padding: 0 var(--s-32);
@@ -52,9 +67,6 @@
     object-fit: cover;
     object-position: center;
   }
-  .features-section-body {
-    flex-direction: column;
-  }
   .features-section-right,
   .features-section-right img {
     width: 100%;
@@ -64,10 +76,6 @@
   }
   .clients-grid {
     grid-template-columns: 1fr 1fr;
-  }
-  .footer-grid {
-    grid-template-columns: 1fr;
-    gap: var(--s-32);
   }
 }
 

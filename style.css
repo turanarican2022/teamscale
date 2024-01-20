@@ -725,3 +725,21 @@ hr {
 .copyright-a:active {
   color: var(--main-blue);
 }
+
+.attribution {
+  margin-top: var(--s-8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-8);
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: var(--main-blue);
+  text-decoration: none;
+}
+
+.heart-icon {
+  width: var(--s-32);
+}
