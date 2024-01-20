@@ -99,6 +99,7 @@ body {
   border-radius: var(--s-8);
   padding: var(--s-10) var(--s-20);
   align-items: center;
+  display: flex;
   gap: var(--s-8);
 }
 
