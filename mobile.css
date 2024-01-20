@@ -72,6 +72,9 @@
 }
 
 @media (max-width: 576px) {
+  .btn {
+    font-size: var(--fs-12);
+  }
   .hero-txt h1 {
     font-size: var(--fs-36);
   }
